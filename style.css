@@ -57,3 +57,73 @@
     border: none;
     cursor: pointer;
 }
+
+.about{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+.about-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.about-des{
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.service-container{
+    padding: 20px;
+    background-image: url("images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(84, 54, 54));
+    height: 440px;
+}
+.box{
+    width:210px ;
+    height: 270px;
+    box-shadow: 4px 2px 105px gray;
+    background-color: black;
+    color: white;
+    text-align:  center;
+    padding: 15px;
+    border-radius: 5px;
+}
+.icon{
+    width: 100px;
+}
+.details{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(34, 31, 31);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.box-title{
+    margin-bottom: 10px;
+}
+.box-des{
+    margin-bottom: 10px;
+}
+.service{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    
+}
+.all-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
