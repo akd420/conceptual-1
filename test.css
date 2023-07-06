@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.paragraph{
+    color: tomato;
+    cursor: url(image_226.png),auto;
+}
+.test{
+    cursor: url("test/image_226.png"),auto;
+}
