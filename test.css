@@ -9,3 +9,24 @@
 .test{
     cursor: url("test/image_226.png"),auto;
 }
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 120px;
+    height: 120px;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
